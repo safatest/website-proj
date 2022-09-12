@@ -5,21 +5,26 @@ const Header = () => {
   return (
     <div className='header'>
         <div className="header_logo">
-            <img src={TeslaLogo} alt='Tesla Logo'/>
+            <img className="logo_img" src={TeslaLogo} alt='Tesla Logo'/>
+        </div>
+
+        <div className='safa'>
+          <p>by Safa</p>
         </div>
 
         <div className="header_center">
-            <p>Model S</p>
-            <p>Model 3</p>
-            <p>Model X</p>
-            <p>Model Y</p>
-            <p>Solar Roof</p>
-            <p>Solar Panels</p>
+            <a href="/">Model S</a>
+            <a href='/'>Model 3</a>
+            <a href='/'>Model X</a>
+            <a href='/'>Model Y</a>
+            <a href='/'>Solar Roof</a>
+            <a href='/'>Solar Panels</a>
         </div>
 
         <div className="header_right">
-            <p>Shop</p>
-            <p>Tesla Account</p>
+            <a href='/'>Shop</a>
+            <a href='/'>Account</a>
+            <a href='/'>Menu</a>
         </div>
         
     </div>

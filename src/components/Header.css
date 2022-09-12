@@ -6,33 +6,61 @@
     width: 100vw;
     top: 0;
     margin: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     z-index: 100;
+}
+
+.logo_img{
+    height: 18px;
+    width: 200%;
 }
 
 .header_logo{
     height: 24px;
     width: 100px;
-    margin-top: 7px;
+    margin-top: 10px;
+    padding-left: 30px;
 }
 
+.safa{
+    margin:20px;
+    margin-top: 30px;
+    font-size: xx-small;
+}
 .header_center{
     flex: 1;
     display: flex;
     justify-content: center;
+    margin-left: 100px;
 }
 
 .header_center>p{
     margin: 10px;
-    text-transform: uppercase;
+}
+.header_center>a{
+    color: black;
+    margin: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .header_right{
     display: flex;
+    margin-right: 50px;
     justify-content: flex-end;
-    text-transform: uppercase;
+    
+    /* text-transform: uppercase; */
 }
 
 .header_right>p{
     margin: 10px;
+}
+
+.header_right>a{
+    color: black;
+    margin: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
 }
